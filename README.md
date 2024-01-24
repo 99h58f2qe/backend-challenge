@@ -10,7 +10,7 @@ Construa uma aplicação que exponha uma api web que recebe por parametros um JW
 - O tamanho máximo da claim Name é de 256 caracteres.
 
 #  Definição
-Input: Uma senha (string).  
+Input: Um JWT (string).  
 Output: Um boolean indicando se a valido ou não.
 
 Use a linguagem de programação que considera ter mais conhecimento.
@@ -94,13 +94,19 @@ Abrindo o JWT, foi encontrado mais de 3 claims.
 - SOLID
 - Documentação da solução no *README* 
 - Commits realizados durante a construção
+- Observability (Logging/Tracing/Monitoring)
 
-## Pontos que não iremos avaliar
+## Demais Itens
 
-- docker file
+- Containerização da aplicação
+- Helm Chart em um cluster de Kubernetes/ECS/FARGATE
+- Repositório no GitHub.
+- Deploy Automatizado para Infra-Estrutura AWS
 - scripts ci/cd
-- coleções do postman ou ferramentas para execução
+- coleções do Insomnia ou ferramentas para execução
+- Provisione uma infraestrutura na AWS com OpenTerraform
 - expor a api em algum provedor de cloud (aws, azure...)
+- Uso de Engenharia de Prompt.
 
 ### Sobre a documentação
 
@@ -109,7 +115,7 @@ Nesta etapa do processo seletivo queremos entender as decisões por trás do có
 Algumas dicas do que esperamos ver são:
 
 - Instruções básicas de como executar o projeto;
-- Detalhes da descrição do metodo
+- Detalhes da descrição dos metodos
 - Caso algo não esteja claro e você precisou assumir alguma premissa, quais foram e o que te motivou a tomar essas decisões.
 
 ## Como esperamos receber sua solução
@@ -119,3 +125,4 @@ Esta etapa é eliminatória, e por isso esperamos que o código reflita essa imp
 Se tiver algum imprevisto, dúvida ou problema, por favor entre em contato com a gente, estamos aqui para ajudar.
 
 Nos envie o *link de um repo público* com a sua solução
+
